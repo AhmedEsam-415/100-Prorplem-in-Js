@@ -15,8 +15,8 @@ function squareOrSquareRoot(array) {
   // });
 
   // ! Arrow Function
-  return array.map((number) =>
-    Number.isInteger(Math.sqrt(number)) ? Math.sqrt(number) : number * number
+  return array.map((n) =>
+    Number.isInteger(Math.sqrt(n)) ? Math.sqrt(n) : n * n
   );
 }
 
